@@ -302,11 +302,15 @@ nav {
     margin: 0 auto;
 }
 
+
+
 .image2{
-   
+    margin-top: px;
 }
-
-
+.imageBig{
+    position: relative;
+    margin-top:-200px;
+}
 /* Grid Layout - Δύο σειρές με τρεις εικόνες η κάθε μία */
 .collection-item {
     position: relative;
@@ -320,8 +324,10 @@ nav {
 .collection-item:nth-child(2),
 .collection-item:nth-child(4),
 .collection-item:nth-child(6) {
-    height: 500px; /* ή όποιο άλλο ύψος θέλετε */
+    height: 600px; /* ή όποιο άλλο ύψος θέλετε */
+    /* margin-top: -40px; */
     background: #2c2c2c;
+    /* margin-top: -2px; */
 }
 
 /* Διατηρούμε το κανονικό height για τα υπόλοιπα */
