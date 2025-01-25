@@ -370,38 +370,74 @@ nav {
 
 /* Engage Section */
 .engage {
-    padding: 80px 0;
     background: #000;
     color: white;
+    padding: 120px 0;
+    position: relative;
 }
 
 .engage-content {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.engage-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.engage-text h2 {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 40px;
+}
+
+.engage-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 500px;
+}
+
+.engage-image {
+    flex: 1;
+    max-width: 500px;
+}
+
+.engage-image img {
     width: 100%;
-    /* margin: 0 auto; */
-    padding: 0 40px;
-    max-width: 800px;
-    /* max-width: 1200px; */
+    height: auto;
+    border-radius: 16px;
 }
 
 /* Footer */
 footer {
     background: #000;
     color: white;
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .footer-content {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
-    width: 100%;
-    /* margin: 0 auto; */
-    padding: 0 40px;
-    max-width: 1200px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    position: relative;
 }
 
 .footer-section h4 {
-    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .footer-section ul {
@@ -409,12 +445,31 @@ footer {
 }
 
 .footer-section ul li {
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
 
 .footer-section a {
-    color: white;
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-section a:hover {
+    color: white;
+}
+
+.footer-logo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+}
+
+.footer-logo img {
+    width: 200px;
+    height: auto;
+    opacity: 0.9;
 }
 
 .elegance-content {
